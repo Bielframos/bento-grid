@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+
+  /* Padrão cromático */
+  --purple-100: hsl(254, 88%, 90%);
+  --purple-500: hsl(256, 67%, 59%);
+  --yellow-100: hsl(31, 66%, 93%);
+  --yellow-500: hsl(39, 100%, 71%);
+  --Black: hsl(0, 0%, 7%);
+  --White: hsl(0, 0%, 100%);
+  --gray: hsl(0, 0%, 96%);
+}
+
+html,
+body {
+  background-color: var(--gray);
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-inline: 1rem;
+  padding-block: 1.5rem;
+  max-width: 1248px;
+  margin-inline: auto;
+}
+
+/* Estilos dos cartões do grid */
+
+.card {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+.card-1 {
+  text-align: center;
+  background-color: var(--purple-500);
+  color: var(--White);
+
+  & h3 {
+    font-size: 3rem;
+    margin-bottom: 1.25rem;
+  }
+
+  & img {
+    height: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  & p {
+    color: var(--purple-100);
+    font-size: 16px;
+  }
+}
+
+.card-2 {
+  background-color: var(--White);
+
+  & img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  & h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+.card-3 {
+  background-color: var(--yellow-500);
+  padding-bottom: 0;
+
+  & h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  & img {
+    width: 70%;
+    margin-bottom: -4px;
+  }
+}
+
+.card-4 {
+  background-color: var(--purple-100);
+  text-align: center;
+  font-weight: 500;
+
+  & h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  & img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.card-5 {
+  background-color: var(--purple-500);
+  text-align: center;
+  font-weight: 500;
+  color: var(--White);
+
+  & h3 {
+    font-size: 2rem;
+  }
+
+  & img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+.card-6 {
+  background-color: var(--White);
+
+  & img {
+    width: 60%;
+    margin-top: 1rem;
+  }
+}
+
+.card-7 {
+  background-color: var(--yellow-100);
+  font-size: 2rem;
+  font-weight: 500;
+
+  & img {
+    width: 60%;
+    margin-top: 1rem;
+  }
+}
+
+.card-8 {
+  background-color: var(--yellow-500);
+
+  & h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  & img {
+    width: 70%;
+  }
+}
