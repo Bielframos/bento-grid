@@ -173,6 +173,8 @@ body {
   border-radius: 999px;
   background-color: var(--purple-100);
   color: var(--purple-500);
+  font-size: 11px;
+  text-align: center;
 }
 
 /* Estilos do Grid no Desktop */
