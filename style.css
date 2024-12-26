@@ -173,12 +173,13 @@ body {
   border-radius: 999px;
   background-color: var(--purple-100);
   color: var(--purple-500);
+  font-size: 11px;
+  text-align: center;
 }
 
 /* Estilos do Grid no Desktop */
 
 @media (min-width: 1280px) {
-
   /* Estilização do grid */
 
   .layout {
@@ -330,7 +331,6 @@ body {
       font-size: 2rem;
       margin-bottom: 0;
     }
-
   }
 
   /* Estilos da atribuição no Desktop */
